@@ -1,11 +1,15 @@
 // script.js
+// script.js
 
-// Example: Change header background color on scroll
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-    if (window.scrollY > 50) {
-        header.style.backgroundColor = '#4b0082'; // Darker purple on scroll
-    } else {
-        header.style.backgroundColor = '#6a0dad'; // Original purple color
-    }
+// Smooth scroll for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const target = document.querySelector(this.getAttribute('href'));
+        window.scrollTo({
+            top: target.offsetTop - 100,
+            behavior: 'smooth'
+        });
+    });
 });
