@@ -68,7 +68,7 @@ scholar:
   bibliography: ref.bib
   bibliography_template: bibtemplate
   sort_by: year, month
-  order: descending
+  order: descend
 
   replace_strings: true
   join_strings: true
