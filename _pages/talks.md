@@ -23,6 +23,8 @@ permalink: /talks/
 </style>
 
 <div class="jumbotron">
-### Gong show
-{% bibliography --query @incollection[keywords != invited] %}
+### Talks
+{% bibliography --query @incollection %}
 </div>
+
+
