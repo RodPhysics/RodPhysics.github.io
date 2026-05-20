@@ -15,7 +15,7 @@ My main interests are string theory, conformal field theory, supersymmetry, and 
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/itacoatiara.jpg" width="100%"/><br/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/itacoatiara.jpeg" width="100%"/><br/>
 At the top of "Agulha Guarischi", a classic climb in Itacoatiara, Niterói. <br/>
 </center>
 </div>
